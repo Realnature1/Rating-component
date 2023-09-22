@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rating component</title>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <img src="images/icon-star.svg" class="star" />
+      <h1 id="h1-el">How did we do?</h1>
+      <p id="p-el">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="circles" id="circles">
+        <button class="circle-btn">1</button>
+        <button class="circle-btn">2</button>
+        <button class="circle-btn">3</button>
+        <button class="circle-btn">4</button>
+        <button class="circle-btn">5</button>
+      </div>
+
+      <button id="btn">Submit</button>
+
+      <div id="message" class="error-message"></div>
+    </div>
+
+    <!-- Thank you state start -->
+
+    <div class="container" id="contain">
+      <img src="images/illustration-thank-you.svg" alt="" />
+
+      <p class="rate">You selected <span id="rating"></span> out of 5</p>
+
+      <h2>Thank you!</h2>
+
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">https://github.com/Realnature1</a> </div> -->
+    </div>
+
+  </div> 
+    <script src="script.js"></script>
+  </body>
+</html>

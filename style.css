@@ -1,0 +1,113 @@
+:root{
+    --primary-color: rgb(149, 158, 172);
+    --secondary-color: rgb(37, 45, 55);
+    --netural-color: rgba(27, 55, 100, 0.322);
+    --dark-color:rgb(18, 20, 23);
+    --light-color:rgb(255, 255, 255);
+    --star-color: rgb(251, 116, 19);
+}
+
+body{
+    background: var(--dark-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-weight: 400;
+}
+
+.star{
+    background: var(--netural-color);
+    border-radius: 20px ;
+    padding: 8px;
+}
+
+.container {
+    background: var(--secondary-color);
+    color: var(--light-color);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 35px;
+    width: 60vh;
+}
+
+p {
+    Font-size: 15px
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.circle-btn {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    background-color: var(--netural-color) ;
+    color: var(--light-color);
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.circle-btn:hover{
+    background: var(--star-color);
+}
+
+.circle-btn.active{
+    background: var(--star-color);
+}
+
+#btn {
+    background: var(--star-color) ;
+    color: var(--light-color);
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px ;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: var(--light-color);
+    color: var(--star-color);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#contain {
+    position: absolute;
+    display: none;
+    text-align: center;
+}
+.rate{
+    background: var(--netural-color);
+    color: var(--star-color);
+    border-radius: 50px;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
